@@ -4,8 +4,8 @@ Konsepnya sederhana: geser (swipe) setiap sampah ke kolom yang tepat. Namun, sat
 Game ini tidak hanya seru untuk mengisi waktu luang, tapi juga membawa pesan positif tentang pentingnya memilah sampah.
 
 # Fitur Utama
-- Gameplay Sederhana & Adiktif: Mudah dipelajari, namun menantang untuk dikuasai. Sempurna untuk dimainkan kapan saja.
-- Kontrol Swipe Intuitif: Cukup geser ke kiri atau kanan. Tidak ada tombol rumit yang mengganggu.
-- Tantangan Refleks: Satu kesalahan akan mengakhiri permainan. Berani terima tantangan untuk meraih skor setinggi mungkin?
-- Tema Edukatif: Belajar membedakan jenis-jenis sampah dengan cara yang menyenangkan dan penuh warna.
-- Skor Tertinggi Online: Game ini terhubung dengan database, menyimpan skor tertinggimu secara otomatis setiap kali kamu bermain. (Dasar untuk fitur leaderboard di masa depan!)
+- **Gameplay Sederhana & Adiktif**: Mudah dipelajari, namun menantang untuk dikuasai. Sempurna untuk dimainkan kapan saja.
+- **Kontrol Swipe Intuitif**: Cukup geser ke kiri atau kanan. Tidak ada tombol rumit yang mengganggu.
+- **Tantangan Refleks**: Satu kesalahan akan mengakhiri permainan. Berani terima tantangan untuk meraih skor setinggi mungkin?
+- **Tema Edukatif**: Belajar membedakan jenis-jenis sampah dengan cara yang menyenangkan dan penuh warna.
+- **Skor Tertinggi Online**: Game ini terhubung dengan database, menyimpan skor tertinggimu secara otomatis setiap kali kamu bermain. (Dasar untuk fitur leaderboard di masa depan!)

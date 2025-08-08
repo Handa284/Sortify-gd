@@ -1,6 +1,6 @@
 # Sortify
 **Sortify** Sebuah game hyper-casual yang menantang kecepatan dan ketepatanmu dalam misi menjaga kebersihan. Sampah-sampah lucu akan berjatuhan dari atas layar, dan tugasmu adalah memilahnya ke tempat sampah yang benar: Organik, B3/Hazardous, dan Plastik.
-Konsepnya sederhana: geser (swipe) setiap sampah ke kolom yang tepat. Namun, jangan anggap remeh! Kecepatan akan terus bertambah seiring dengan skormu. Satu saja kesalahan dalam memilah, dan permainan berakhir. Fokus, kecepatan, dan akurasi adalah kunci untuk mencatatkan namamu sebagai pemilah sampah terbaik!
+Konsepnya sederhana: geser (swipe) setiap sampah ke kolom yang tepat. Namun, satu saja kesalahan dalam memilah, dan permainan berakhir. Fokus, kecepatan, dan akurasi adalah kunci untuk mencatatkan namamu sebagai pemilah sampah terbaik!
 Game ini tidak hanya seru untuk mengisi waktu luang, tapi juga membawa pesan positif tentang pentingnya memilah sampah.
 
 # Fitur Utama

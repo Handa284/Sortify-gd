@@ -1,17 +1,14 @@
 extends Node2D
 
-# Memuat scene sampah agar bisa kita buat instance-nya nanti
 @onready var trash_scene = preload("res://scenes/trash.tscn")
 
 # Variabel untuk menampung data permainan
 var score = 0
 var is_game_over = false
 
-# Referensi ke node-node UI (akan kita buat nanti)
 @onready var score_label = $HUD/ScoreLabel
 @onready var game_over_screen = $GameOverScreen
 
-# Referensi ke timer untuk spawn sampah
 @onready var spawn_timer = $TrashSpawnTimer
 
 # Daftar tekstur sampah untuk memudahkan
@@ -95,11 +92,11 @@ func game_over():
 	# Update teks di layar game over
 	game_over_screen.get_node("ColorRect/VBoxContainer/YourScoreLabel").text = "Your Score: " + str(score)
 
-	# Logika high score (akan dikembangkan di Fase 7)
+	# Logika high score 
 	GameManager.save_high_score(score)
 	game_over_screen.get_node("ColorRect/VBoxContainer/HighScoreLabel").text = "Highest Score: " + str(GameManager.high_score)
 
-# --- KITA AKAN MENGHUBUNGKAN SIGNAL KE FUNGSI-FUNGSI INI ---
+
 func _on_bin_organik_body_entered(body):
 	print("Sampah masuk ke bin Organik!")
 	handle_trash_sorted(body, Trash.TrashType.ORGANIK)

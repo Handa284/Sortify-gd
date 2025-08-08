@@ -10,10 +10,8 @@ var is_swiping := false
 
 func _ready():
 	input_pickable = true
-	# Pastikan node ini juga menerima _input() global
 	set_process_input(true)
 
-# Tangani hanya PRESS di dalam collision shape
 func _input_event(_viewport, event, _shape_idx):
 	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.pressed:
 		is_swiping = true
@@ -22,7 +20,6 @@ func _input_event(_viewport, event, _shape_idx):
 		is_swiping = true
 		swipe_start_position = event.position
 
-# Tangani MOTION & RELEASE di mana saja
 func _input(event):
 	if is_swiping:
 		# Update posisi terakhir saat drag
@@ -42,9 +39,7 @@ func _apply_swipe():
 	var swipe_vec: Vector2 = swipe_end_position - swipe_start_position
 	print("DEBUG swipe_vec:", swipe_vec)
 	if abs(swipe_vec.x) > 20:
-		# Definisikan strength sebagai float
 		var strength: float = 2000.0
-		# sign(swipe_vec.x) akan -1 atau +1
 		linear_velocity.x = strength * sign(swipe_vec.x)
 		print("Applied swipe, velocity.x =", linear_velocity.x)
 	else:
